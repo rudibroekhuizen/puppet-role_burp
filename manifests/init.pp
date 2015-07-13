@@ -36,13 +36,13 @@
 # Copyright 2015 Your name here, unless otherwise noted.
 #
 class role_burp (
-  $version           = undef,
-  $server            = undef,
-  $client            = undef,
-  $clientconf_hash   = undef,
-  $common            = undef,
-  $burp_server_hash  = undef,
-  $burp_hash         = undef,
+  $version          = undef,
+  $server           = undef,
+  $client           = undef,
+  $clientconf_hash  = undef,
+  $common           = undef,
+  $burp_server_hash = undef,
+  $burp_hash        = undef,
   ) {
 
   class { 'burp':
